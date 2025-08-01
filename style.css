@@ -2,7 +2,7 @@ h1
 {
 	color:pink;
 	font-size:75px;	
-	font-family:"Lobster Two", sans-serif;;
+	font-family:"stylesheet";
 	background-color:#95d0cf ;
 }
 html
@@ -22,4 +22,48 @@ p1
 footer 
 {
 	background-color:#95d0cf ;
+}
+.senifer
+{
+	margin-left:20px ;
+}
+.mouna
+{
+	margin-left:20px ;
+}
+.mounira
+{
+	margin-left: 20px;
+}
+.jomana
+{
+	margin-left: 20px;
+}
+nav a
+{
+	font-size: 30px;
+	color:pink;
+	margin-left:20px;
+	margin-right:20px;
+}
+nav
+{
+	color:pink;
+}
+main 
+{
+	margin:15px;
+	margin-top:30px;
+}
+.image-cliquable {
+  cursor: pointer; /* curseur main au survol */
+  transition: transform 0.2s ease;
+}
+
+.image-cliquable:hover {
+  transform: scale(1.05); /* effet zoom au survol */
+}
+
+.image-cliquable:active {
+  transform: scale(0.95); /* effet "clic" */
 }
